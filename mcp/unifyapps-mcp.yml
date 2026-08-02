@@ -1,0 +1,28 @@
+generated: '2026-07-21'
+method: searched
+source: https://www.unifyapps.com/docs/unify-agentic-ai/configure-mcp-servers
+status: platform-capability
+summary: >-
+  UnifyApps does not publish a single public first-party MCP server for its own
+  API. Instead, MCP servers are a documented product capability of the Unify
+  Agentic AI module: customers create and host MCP servers on the platform,
+  exposing any of the 600+ out-of-the-box connectors, custom in-house APIs
+  connected to the platform, or entire workflows (or individual workflow nodes)
+  as MCP-compliant tools. Created MCP servers are published through the
+  platform's API Manager with customizable RESTful endpoint URLs.
+server:
+  name: unifyapps-platform-mcp
+  transport: sse
+  url: null
+  hosting: customer-instance (created via the Agentic AI module, exposed via API Manager)
+authentication:
+  - JWT
+  - OAuth 2.0
+  - Basic Auth
+  - Custom Authentication
+tools: []
+notes: >-
+  Tool lists are per-customer (drawn from connectors, custom APIs, and
+  workflows), so no canonical public tool catalog exists to enumerate here.
+  Governance features documented for exposed MCP/API endpoints include granular
+  access controls, rate limiting, quotas, analytics, and alerts.

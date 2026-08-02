@@ -1,0 +1,25 @@
+generated: '2026-07-21'
+method: searched
+host: https://www.unifyapps.com
+documents:
+  - path: /.well-known/security.txt
+    status: 404
+  - path: /security.txt
+    status: 404
+  - path: /.well-known/openid-configuration
+    status: 404
+  - path: /.well-known/oauth-authorization-server
+    status: 404
+  - path: /.well-known/api-catalog
+    status: 404
+  - path: /.well-known/ai-plugin.json
+    status: 404
+  - path: /llms.txt
+    status: 404
+  - path: /docs/llms.txt
+    status: 308
+    note: redirects to /docs (HTML documentation hub, not an llms.txt)
+notes: >-
+  No RFC 9116 security.txt, OIDC discovery, RFC 8414 metadata, api-catalog, or
+  llms.txt published on www.unifyapps.com as of 2026-07-21. docs.unifyapps.com
+  and api.unifyapps.com did not resolve from this probe location.

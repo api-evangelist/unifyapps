@@ -1,0 +1,25 @@
+generated: '2026-07-21'
+method: searched
+source: https://www.npmjs.com/package/@unifyapps/custom-component-cli
+clis:
+  - name: "@unifyapps/custom-component-cli"
+    version: 0.0.3
+    install:
+      - npm install -g @unifyapps/custom-component-cli
+    registry: https://www.npmjs.com/package/@unifyapps/custom-component-cli
+    purpose: >-
+      Build Custom Components that extend UnifyApps app experiences — the
+      package guide walks through building, previewing, and publishing custom
+      components to the platform.
+    official: true
+  - name: "@unifyapps/blocks-cli"
+    version: 0.1.1
+    install:
+      - npm install -g @unifyapps/blocks-cli
+    registry: https://www.npmjs.com/package/@unifyapps/blocks-cli
+    purpose: CLI for UnifyApps blocks (no published description).
+    official: true
+notes: >-
+  Developer-tooling CLIs for extending the platform; UnifyApps ships no
+  general-purpose API CLI (no public REST API surface to drive). Binaries are
+  catalogued in packages/unifyapps-packages.yml.

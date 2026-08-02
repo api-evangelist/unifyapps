@@ -1,0 +1,20 @@
+generated: '2026-07-21'
+method: searched
+probe: true
+url: https://trust.unifyapps.com/
+platform: Vanta
+certifications: []
+evidence:
+  - source: https://trust.unifyapps.com/
+    status: 200
+    kind: trust-center
+    detail: >-
+      Page titled "UnifyApps Trust Center", hosted on Vanta's trust-center
+      platform (assets.vanta.com, prod environment). Content — including any
+      certification list — is rendered client-side, so named certifications
+      could not be extracted or verified from the static HTML; none are
+      asserted here.
+notes: >-
+  Also linked from the www.unifyapps.com footer. No certifications are claimed
+  in this artifact until they can be verified from the rendered trust center
+  or provider documentation.

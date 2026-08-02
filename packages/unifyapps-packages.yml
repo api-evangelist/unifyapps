@@ -1,0 +1,42 @@
+generated: '2026-07-21'
+method: searched
+source: npm registry search + pub.dev (publisher unifyapps-dev / UnifyApps)
+packages:
+  - language: javascript
+    registry: npm
+    name: "@unifyapps/analytics-react-native"
+    version: 0.10.2
+    url: https://www.npmjs.com/package/@unifyapps/analytics-react-native
+    install: npm install @unifyapps/analytics-react-native
+    description: UnifyApps React Native Analytics
+    official: true
+  - language: javascript
+    registry: npm
+    name: "@unifyapps/custom-component-cli"
+    version: 0.0.3
+    url: https://www.npmjs.com/package/@unifyapps/custom-component-cli
+    install: npm install -g @unifyapps/custom-component-cli
+    description: CLI for building Custom Components that extend UnifyApps app experiences
+    official: true
+  - language: javascript
+    registry: npm
+    name: "@unifyapps/blocks-cli"
+    version: 0.1.1
+    url: https://www.npmjs.com/package/@unifyapps/blocks-cli
+    install: npm install -g @unifyapps/blocks-cli
+    official: true
+  - language: dart
+    registry: pub.dev
+    name: unifyapps_sdk_flutter
+    version: 0.0.9
+    url: https://pub.dev/packages/unifyapps_sdk_flutter
+    install: flutter pub add unifyapps_sdk_flutter
+    description: UnifyApps SDK Flutter — Flutter widget that connects a mobile app to UnifyApps platforms
+    official: true
+notes: >-
+  All packages published under the @unifyapps npm scope by publisher
+  unifyapps-dev and the unifyapps_sdk_flutter pub.dev package are first-party.
+  The GitHub org https://github.com/unify-apps hosts mostly forked upstream
+  dependencies (React Native components, Debezium, DevTools) rather than
+  standalone SDK repos. No first-party packages found on PyPI, Maven Central,
+  NuGet, RubyGems, Packagist, or crates.io.

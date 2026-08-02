@@ -1,0 +1,35 @@
+generated: '2026-07-21'
+method: searched
+docs: https://www.unifyapps.com/docs/unify-agentic-ai/configure-mcp-servers
+source: https://www.unifyapps.com/docs
+summary:
+  types: [jwt, oauth2, basic, custom]
+  context: >-
+    UnifyApps publishes no single public REST API; authentication applies to
+    the endpoints customers expose from the platform (workflows as APIs, MCP
+    servers) and to embedded integrations.
+schemes:
+  - name: JWT
+    type: http
+    scheme: bearer
+    bearerFormat: JWT
+    context: API Manager option for exposed APIs and MCP servers
+  - name: OAuth 2.0
+    type: oauth2
+    context: >-
+      API Manager option for delegated third-party authorization on exposed
+      endpoints; embedded integrations use OAuth 2.0 identity providers
+      (Client ID, Client Secret, Redirect URI) with session tokens passed to
+      the Angular/Flutter SDKs.
+  - name: Basic Auth
+    type: http
+    scheme: basic
+    context: API Manager option for exposed endpoints
+  - name: Custom Authentication
+    type: custom
+    context: API Manager option for specialized security requirements
+sso:
+  - >-
+    Platform sign-in supports enterprise SSO via OpenID identity providers
+    (e.g. Google OpenID SSO configuration documented in the Governance /
+    identity provider setup docs).

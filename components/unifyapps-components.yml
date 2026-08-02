@@ -1,0 +1,31 @@
+generated: '2026-07-21'
+method: searched
+source: https://www.unifyapps.com/docs/embedded-integrations
+families:
+  - family: Embedded applications
+    description: >-
+      Embed UnifyApps applications and integration experiences inside external
+      web and mobile apps ("Embedded Integrations"). Configured with host URL,
+      applicationId, identityProviderId, optional pageId/pageInputs, theming
+      (light/dark/system), custom networkHeaders, onPageEvent callbacks, and
+      optional Shadow-DOM isolation. Authenticates via OAuth 2.0 identity
+      providers with session tokens.
+    loaders:
+      - name: Angular SDK
+        docs: https://www.unifyapps.com/docs/embedded-integrations/application-embed-angular-sdk
+      - name: Flutter SDK (unifyapps_sdk_flutter)
+        url: https://pub.dev/packages/unifyapps_sdk_flutter
+  - family: Custom Components
+    description: >-
+      Extend UnifyApps app experiences with developer-built custom UI
+      components, scaffolded and published with the first-party CLI.
+    loaders:
+      - name: "@unifyapps/custom-component-cli"
+        url: https://www.npmjs.com/package/@unifyapps/custom-component-cli
+  - family: No-code UI component library
+    description: >-
+      Built-in components used inside Unify Applications (Repeatable, Avatar
+      Group, Carousel, Module, Screen, etc.) with data-source binding and
+      interaction configuration — documented in the Unify Applications docs.
+    loaders: []
+notes: Distinct from server-side SDKs catalogued in packages/unifyapps-packages.yml.

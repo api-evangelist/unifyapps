@@ -1,21 +1,53 @@
 aid: unifyapps
 name: UnifyApps
-description: 'UnifyApps is a company surfaced as a portfolio company of iconiq-capital and added to the
-  API Evangelist network as a stub for enrichment. Sector: ai. This profile is a lead awaiting the enrichment
-  pipeline.'
+description: >-
+  UnifyApps is an enterprise "AI Operating System" founded in 2023 by Ragy
+  Thomas (founder of Sprinklr) and Pavitar Singh: one platform to build and
+  manage agentic AI solutions, create no-code enterprise applications,
+  automate complex business processes, and replicate data in real time across
+  1,000+ application integrations, deployable in the cloud or on-premises.
+  Customers expose workflows as REST endpoints (Callable, Webhook, LLM,
+  External API, and Event Stream resources) through the platform's API
+  Manager, and can publish MCP servers whose tools draw on 600+ connectors,
+  custom in-house APIs, and workflows — secured with JWT, OAuth 2.0, Basic, or
+  custom authentication plus rate limiting, quotas, and analytics. UnifyApps
+  has raised $84M+ (Series A led by ICONIQ Growth; $50M Series B led by
+  WestBridge Capital) and is headquartered in New York with offices in
+  Gurugram, Dubai, and Hyderabad.
 url: https://raw.githubusercontent.com/api-evangelist/unifyapps/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
 x-backed-by:
 - iconiq-capital
-x-tier: stub
+x-tier: enriched
 x-tier-reason: portfolio-lead
+accessModel:
+  pricing: unknown
+  onboarding: self-serve
+  trial: false
+  try_now: false
+  public: false
+  label: Self-serve signup
+  confidence: medium
+  source:
+  - authentication
+  generated: '2026-07-22'
+  method: derived
 specificationVersion: '0.20'
+image: https://images.contentstack.io/v3/assets/blt55a41789e979ba65/bltca16d9e3eed7d63a/6a2696f38c6034ca2dc46150/Unify_Logo_Footer.svg
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-21'
 tags:
 - Company
 - Ai
+- Agentic AI
+- Integration Platform
+- iPaaS
+- Automation
+- No Code
+- Enterprise
+- Data Replication
+- MCP
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -25,3 +57,44 @@ maintainers:
 common:
 - type: Website
   url: https://www.unifyapps.com/
+- type: Documentation
+  url: https://www.unifyapps.com/docs
+- type: Blog
+  url: https://www.unifyapps.com/resources/blog
+- type: TermsOfService
+  url: https://www.unifyapps.com/terms-of-use
+- type: PrivacyPolicy
+  url: https://www.unifyapps.com/privacy-policy
+- type: StatusPage
+  url: https://status.unifyapps.com/
+- type: GitHubOrganization
+  url: https://github.com/unify-apps
+- type: TrustCenter
+  url: security/unifyapps-trust-center.yml
+- type: DomainSecurity
+  url: security/unifyapps-domain-security.yml
+- type: Lifecycle
+  url: lifecycle/unifyapps-lifecycle.yml
+- type: Packages
+  url: packages/unifyapps-packages.yml
+- type: SDKs
+  url: packages/unifyapps-packages.yml
+- type: CLI
+  url: cli/unifyapps-cli.yml
+- type: Components
+  url: components/unifyapps-components.yml
+- type: Authentication
+  url: authentication/unifyapps-authentication.yml
+- type: MCPServer
+  url: mcp/unifyapps-mcp.yml
+- type: LLMsTxt
+  url: llms/unifyapps-llms.txt
+- type: Conformance
+  url: conformance/unifyapps-conformance.yml
+- type: WellKnown
+  url: well-known/unifyapps-well-known.yml
+x-enrichment:
+  date: '2026-07-21'
+  status: enriched
+  artifacts_added: 11
+  pass: local-v1

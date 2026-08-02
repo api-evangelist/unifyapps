@@ -1,0 +1,40 @@
+# UnifyApps
+
+> UnifyApps is an enterprise "AI Operating System": one platform to build and manage AI agents and intelligent apps, automate business processes, replicate data in real time, and integrate 1,000+ enterprise applications — deployable in the cloud or on-premises. Founded in 2023 by Ragy Thomas (Sprinklr founder) and Pavitar Singh, backed by ICONIQ Growth, WestBridge Capital, and Elevation Capital ($84M+ raised through Series B).
+
+Customers expose automations and workflows as REST APIs (Callable, Webhook, LLM, External API, and Event Stream resource types) through the platform's API Manager, and can publish MCP servers whose tools are drawn from 600+ out-of-the-box connectors, custom in-house APIs, and workflows. Exposed endpoints support JWT, OAuth 2.0, Basic, and custom authentication, with rate limiting, quotas, analytics, and alerts.
+
+## Products
+
+- [Unify Agentic AI](https://www.unifyapps.com/docs/unify-agentic-ai): Build, manage, and deploy LLM-powered AI agents; includes MCP server creation
+- [Unify Applications](https://www.unifyapps.com/docs/unify-applications): No-code enterprise application builder
+- [Unify Automations](https://www.unifyapps.com/docs/unify-automations): Automate complex business processes; expose workflows as APIs
+- [Unify Data](https://www.unifyapps.com/docs/unify-data): Real-time data replication from any source to destination
+- [Unify Integrations](https://www.unifyapps.com/docs/unify-integrations): 1,000+ ready-to-use connectors
+- [Embedded Integrations](https://www.unifyapps.com/docs/embedded-integrations): Embed UnifyApps experiences in external apps (Angular SDK, Flutter SDK)
+
+## Docs
+
+- [Knowledge Base](https://www.unifyapps.com/docs): Product documentation hub
+- [API resources](https://www.unifyapps.com/docs/unify-automations/api): Exposing automations as API endpoints
+- [API Groups](https://www.unifyapps.com/docs/unify-automations/api-groups): Organizing exposed APIs by access pattern
+- [Configure MCP Servers](https://www.unifyapps.com/docs/unify-agentic-ai/configure-mcp-servers): Creating MCP servers from connectors, APIs, and workflows
+- [Angular SDK](https://www.unifyapps.com/docs/embedded-integrations/application-embed-angular-sdk): Embedding UnifyApps applications
+
+## SDKs and Tools
+
+- [@unifyapps/analytics-react-native](https://www.npmjs.com/package/@unifyapps/analytics-react-native): React Native analytics SDK
+- [@unifyapps/custom-component-cli](https://www.npmjs.com/package/@unifyapps/custom-component-cli): CLI for building custom components
+- [@unifyapps/blocks-cli](https://www.npmjs.com/package/@unifyapps/blocks-cli): Blocks CLI
+- [unifyapps_sdk_flutter](https://pub.dev/packages/unifyapps_sdk_flutter): Flutter SDK for mobile embedding
+- [GitHub organization](https://github.com/unify-apps): unify-apps
+
+## Company
+
+- [Website](https://www.unifyapps.com/)
+- [About](https://www.unifyapps.com/about-us)
+- [Blog](https://www.unifyapps.com/resources/blog)
+- [Trust Center](https://trust.unifyapps.com/)
+- [Status Page](https://status.unifyapps.com/)
+- [Terms of Use](https://www.unifyapps.com/terms-of-use)
+- [Privacy Policy](https://www.unifyapps.com/privacy-policy)

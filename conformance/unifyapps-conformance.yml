@@ -1,0 +1,38 @@
+generated: '2026-07-21'
+method: searched
+source: https://www.unifyapps.com/docs
+standards:
+  - id: oauth2
+    conforms: true
+    evidence: >-
+      API Manager supports OAuth 2.0 for APIs and MCP servers exposed from the
+      platform (docs/unify-agentic-ai/configure-mcp-servers); embedded
+      integrations authenticate via OAuth 2.0 identity providers (Client ID,
+      Client Secret, Redirect URI).
+  - id: oidc
+    conforms: true
+    evidence: >-
+      Platform documents OpenID SSO configuration (e.g. Google OpenID SSO)
+      for identity provider setup; no public /.well-known/openid-configuration
+      on www.unifyapps.com (404).
+  - id: jwt
+    conforms: true
+    evidence: API Manager supports JWT authentication for exposed endpoints.
+  - id: mcp
+    conforms: true
+    evidence: >-
+      Agentic AI module creates MCP-compliant servers (SSE transport) exposing
+      connectors, custom APIs, and workflows as tools
+      (docs/unify-agentic-ai/configure-mcp-servers).
+  - id: rfc9457-problem-details
+    conforms: false
+    evidence: no OpenAPI or error-format documentation found to assert this
+  - id: rfc9116-security-txt
+    conforms: false
+    evidence: /.well-known/security.txt returns 404 on www.unifyapps.com
+notes: >-
+  UnifyApps is an integration/agentic-AI platform; the API surface is
+  customer-defined (workflows exposed as endpoints), so spec-level conformance
+  (pagination, idempotency, JSON:API) is not assertable from public docs.
+  A Vanta-hosted trust center exists at https://trust.unifyapps.com/ but its
+  certification list is rendered client-side and could not be verified.

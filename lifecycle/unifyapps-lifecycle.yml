@@ -1,0 +1,18 @@
+generated: '2026-07-21'
+method: searched
+source: https://status.unifyapps.com/
+status_page: https://status.unifyapps.com/
+status_page_provider: Better Stack
+status_page_notes: >-
+  Public status page with real-time and historical component status
+  (verified 200, components reporting Operational), incident updates at
+  status.unifyapps.com/updates and scheduled maintenances.
+versioning: null
+deprecation: null
+sla: null
+deprecated_operations: []
+notes: >-
+  No public API versioning policy, deprecation policy, Sunset/Deprecation
+  header (RFC 8594) support, or SLA documentation found — the platform's API
+  endpoints are customer-defined via the API Manager rather than a versioned
+  public API surface.

@@ -1,7 +1,8 @@
 generated: '2026-07-21'
 method: searched
 source: https://www.unifyapps.com/docs/unify-agentic-ai/configure-mcp-servers
-status: platform-capability
+status: published
+status_raw: platform-capability
 summary: >-
   UnifyApps does not publish a single public first-party MCP server for its own
   API. Instead, MCP servers are a documented product capability of the Unify

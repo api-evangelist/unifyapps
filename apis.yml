@@ -33,7 +33,7 @@ accessModel:
   - authentication
   generated: '2026-07-22'
   method: derived
-specificationVersion: '0.20'
+specificationVersion: '0.23'
 image: https://images.contentstack.io/v3/assets/blt55a41789e979ba65/bltca16d9e3eed7d63a/6a2696f38c6034ca2dc46150/Unify_Logo_Footer.svg
 created: '2026-07-17'
 modified: '2026-07-21'

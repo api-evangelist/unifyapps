@@ -1,0 +1,32 @@
+# Front Door AI Index — unifyapps — 2026-09-17
+# AI vocabulary counted on the provider's root page. Generated; do not edit.
+# `score` is null unless ownership is `own` — see front_door_ai.py.
+front_door_ai:
+  slug: unifyapps
+  lexicon_version: '1.0'
+  probed_at: '2026-09-17'
+  host: www.unifyapps.com
+  final_host: www.unifyapps.com
+  ownership: own
+  owner: unifyapps
+  shares_host_with: null
+  inherited_from: null
+  verdict: scored
+  score: 25
+  host_score: 25
+  density: 26.32
+  words: 950
+  tiers:
+    agentic: 6
+    core: 19
+    model: 0
+  ambiguous: 9
+  top_terms:
+    AI: 18
+    agent: 4
+    agentic: 4
+    intelligence: 3
+    automation: 2
+    AI agent: 1
+    MCP: 1
+    gen ai: 1

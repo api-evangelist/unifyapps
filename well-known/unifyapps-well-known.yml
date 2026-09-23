@@ -1,10 +1,13 @@
 generated: '2026-07-21'
 method: searched
 host: https://www.unifyapps.com
-documents:
+notes: No RFC 9116 security.txt, OIDC discovery, RFC 8414 metadata, api-catalog, or llms.txt published
+  on www.unifyapps.com as of 2026-07-21. docs.unifyapps.com and api.unifyapps.com did not resolve from
+  this probe location.
+hosts:
+- host: https://www.unifyapps.com
+  documents:
   - path: /.well-known/security.txt
-    status: 404
-  - path: /security.txt
     status: 404
   - path: /.well-known/openid-configuration
     status: 404
@@ -14,12 +17,8 @@ documents:
     status: 404
   - path: /.well-known/ai-plugin.json
     status: 404
-  - path: /llms.txt
-    status: 404
-  - path: /docs/llms.txt
-    status: 308
-    note: redirects to /docs (HTML documentation hub, not an llms.txt)
-notes: >-
-  No RFC 9116 security.txt, OIDC discovery, RFC 8414 metadata, api-catalog, or
-  llms.txt published on www.unifyapps.com as of 2026-07-21. docs.unifyapps.com
-  and api.unifyapps.com did not resolve from this probe location.
+x-shape-fix:
+  converted: '2026-08-20'
+  from: documents
+  note: Rewritten into hosts[] -> documents[], the only shape well_known_docs() in score.rb reads. A served
+    .well-known surface recorded in any other shape scores as absent.

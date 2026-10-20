@@ -15,3 +15,47 @@
   relationship: distribution-channel
   status: not-a-workflow
   arazzo: null
+- slug: unifyapps-npm-registry
+  label: npm registry
+  partner: npm
+  partner_name: npm registry
+  category: official SDK (JavaScript/TypeScript)
+  type: register
+  channel: package-registry
+  evidence: https://www.npmjs.com/package/@unifyapps/analytics-react-native
+  source: edge
+  relationship: distribution-channel
+  contract_reference:
+    register: npm registry (public registry JSON)
+    spec_file: null
+    language: JavaScript/TypeScript
+    packages:
+    - name: '@unifyapps/analytics-react-native'
+      version: 0.10.2
+      released: '2025-08-12'
+      released_field: modified
+      lapsed: false
+      page: https://www.npmjs.com/package/@unifyapps/analytics-react-native
+      repo_leg: domain:unifyapps.com
+      publisher_leg: email:unifyapps.com
+      matched_by: domain
+    current: true
+    signal_note: 'an official package on the registry: distribution, not an integration; lapsed = no release in
+      24 months'
+    detected_by: sweep-official-sdks.py
+    detected: '2026-10-20'
+  status: not-a-workflow
+  arazzo: null
+- slug: unifyapps-zendesk-own
+  label: Zendesk (own)
+  partner: zendesk
+  partner_name: Zendesk (own)
+  category: Agent Productivity
+  type: marketplace
+  marketplace: own
+  channel: partner-built
+  evidence: https://www.zendesk.com/marketplace/apps/support/1052876/unifyapps/
+  source: edge
+  relationship: platform-app
+  status: not-a-workflow
+  arazzo: null
